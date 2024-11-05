@@ -1,0 +1,40 @@
+:root {
+    --purple: rebeccapurple;
+    --white: #eaeae3;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #282836;
+    color: var(--white);
+}
+
+.coder-btn {
+    display: block;
+    margin: 15px auto;
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+.coder-btn:hover {
+    color: var(--purple);
+    border-color: var(--purple);
+}
+
+.coder-text {
+    color: var(--purple);
+    font-size: calc(22px + (48 - 22) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.selection-box {
+    margin: 0 auto;
+    padding: 30px; 
+    width: 60%;
+    height: 50vh;
+    background-color: var(--white);
+}
+
+.site-link {
+    color: var(--white)
+}
