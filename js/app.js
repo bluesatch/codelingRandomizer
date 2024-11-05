@@ -2,7 +2,6 @@
  * Randomizer to select which of my codelings has to present their work
  */
 
-
 // array of coders
 const coders = [
     'Will',
@@ -45,5 +44,5 @@ coderBtn.addEventListener('click', ()=> {
 
     const coderText = document.getElementById('coderText');
     let coder = getCoder(coders)
-    coderText.innerText  = coder
+    coderText.innerText = coder
 })
